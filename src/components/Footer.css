@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1F0F08;
+    position: relative;
+    top: 1050px;
+  }
+  
+  .footer-icon {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    position: relative;
+    right: 875.9px;
+  }
+  
+  .footer-icon:hover {
+    color: #ffab00;
+  }
+  
