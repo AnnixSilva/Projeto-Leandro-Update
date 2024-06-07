@@ -1,0 +1,29 @@
+.leandro4{
+    height: 800px;
+}
+
+.local-entrada{
+    position: relative;
+    left: 19%;
+    top: 0%;
+}
+
+.login{
+    top: 45%;
+    left: -20.1%;
+}
+
+.cadastro{
+    top: 40%;
+    left: -0.5%;
+}
+
+.voltar{
+    position: relative;
+    left: -45%;
+    top: -20%;
+}
+
+.voltar:hover{
+    transform: scale(1.02);
+}

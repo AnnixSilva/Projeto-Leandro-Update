@@ -1,13 +1,14 @@
-.login-container {
+.cadastro-container {
     max-width: 400px;
-    margin: 0 auto;
+    position: relative;
+    left: 38%;
     padding: 20px;
     background-color: #362f2d;
     color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
-    top: 200px;
+    top: 13%;
   }
   
   h1 {
@@ -25,13 +26,19 @@
     color: #333;
   }
   
-  a {
-    color: #aaa;
-    text-decoration: none;
+  label.remember-me {
+    display: flex;
+    align-items: center;
     font-size: 16px;
+    color: #ccc;
+    margin-bottom: 15px;
   }
   
-  button {
+  label.remember-me input {
+    margin-right: 10px;
+  }
+  
+  button.cadastro-botao {
     width: 100%;
     padding: 10px;
     background-color: #007bff;
@@ -42,12 +49,24 @@
     transition: background-color 0.3s ease;
   }
   
-  button:hover {
+  button.cadastro-botao:hover {
     background-color: #0056b3;
   }
   
-  /* Botões de login social */
-  .social-login {
+  a.forgot-password {
+    display: block;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+  }
+
+  a.forgot-password:hover {
+      text-decoration: underline;
+    }
+  
+  .social-register {
     margin-top: 10px;
     font-size: 16px;
     text-align: center;
@@ -59,21 +78,38 @@
     cursor: pointer;
   }
   
-  .social-login.facebook {
+  .social-register.facebook {
+    transition: 0.3s;
     color: #3b5998;
   }
-  
-  .social-login.google {
-    color: #db4a39;
+
+  .social-register.facebook:hover{
+    color: white;
   }
   
-  /* Responsividade */
+  .social-register.google {
+    transition: 0.3s;
+    color: #db4a39;
+  }
+
+  .social-register.google:hover{
+    color: white;
+    background-color: #db4a39;
+  }
+
+  .remember-me{
+    white-space: nowrap;
+    position: relative;
+    left: -20%;
+    top: -5px;
+  }
+  
   @media screen and (max-width: 480px) {
-    .login-container {
+    .cadastro-container {
       max-width: 100%;
     }
   }
   
-  .euphoria{
+  .euphoria {
     height: 800px;
   }

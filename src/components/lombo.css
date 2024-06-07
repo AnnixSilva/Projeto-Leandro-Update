@@ -1,0 +1,56 @@
+.banner1{
+    position: relative;
+    left: 0%;
+    top: -80px;
+    z-index: -1;
+     
+}
+
+.pagamento{
+    position: relative;
+    right: 25%;
+    top: 35%;
+    z-index: 0;
+}
+
+.lombo-geral{
+    height: 800px;
+}
+
+.lombo-botao{
+    position: relative;
+    left: -15%;
+    top: 32%;
+    z-index: 0;
+}
+
+.voltar{
+    position: relative;
+    top: -17%;
+    left: -33%;
+    
+}
+
+.checkbox-container {
+    position: relative;
+    margin-top: 270px;
+    left: -30%;
+    z-index: 10;
+
+}
+
+.checkbox{
+    position: relative;
+    left: 10.5%;
+    top: 20%;
+    z-index: 10;
+    width: 20px; /* Largura da checkbox */
+    height: 20px; /* Altura da checkbox */
+    transform: scale(1.5); /* Ajusta o tamanho da checkbox proporcionalmente */
+}
+
+.checkmark{
+    position: relative;
+    left: 11%;
+    top: -3px;
+}

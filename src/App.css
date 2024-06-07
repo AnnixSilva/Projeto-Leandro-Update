@@ -52,7 +52,7 @@ img {
 
 .gigas{
   position: relative;
-  left: 650px;
+  left: 640px;
   display: flex;
   flex-direction: row;
 }
@@ -69,6 +69,7 @@ footer {
 footer a {
   color: #fff;
   margin: 0 10px;
+  left: -47%;
 }
 
 footer a:hover {

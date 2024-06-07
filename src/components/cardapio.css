@@ -1,3 +1,8 @@
+.leandro3{
+    position: relative;
+    bottom: 200px;
+}
+
 .host{
     position: relative;
     left: 299px;
@@ -8,47 +13,51 @@
 .host1{
     position: relative;
     right: 919px;
-    top: 600px;
+    top: 500px;
 }
 
 .host2{
     position: relative;
     left: 110px;
-    top: 570px;
+    top: 470px;
 }
 
 .host3{
     position: relative;
     right: 500px;
-    top: 820px;
+    top: 720px;
 }
 
 .host4{
     position: relative;
     right: 1120px;
-    top: 1000px;
+    top: 900px;
 }
 
 .host5{
     position: relative;
     left: 1000px;
-    top: 10px;
+    bottom: 90px;
 }
 
 .host6{
     position: relative;
     left: 410px;
-    top: 260px;
+    top: 160px;
 }
 
 .host7{
     position: relative;
     right: 190px;
-    top: 512px;
+    top: 412px;
 }
 
 .host8{
     position: relative;
     left: 460px;
-    top: 490px;
+    top: 390px;
+}
+
+.samuel{
+    height: 1800px;
 }

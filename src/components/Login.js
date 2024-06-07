@@ -11,25 +11,27 @@ function LoginScreen() {
   };
 
   return (
-    <div className="login-container">
-      <h1>Log in</h1>
-      <input
-        type="email"
-        placeholder="Email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-      />
-      <input
-        type="password"
-        placeholder="Senha"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-      />
-      <a href="#forgot">Esqueceu sua senha?</a>
-      <button onClick={handleLogin}>Entrar</button>
-      <p>Ou continue com</p>
-      <button className="social-login facebook">Entrar com o Facebook</button>
-      <button className="social-login google">Entrar com o Google</button>
+    <div className='euphoria'>
+      <div className="login-container">
+        <h1>Log in</h1>
+        <input
+          type="email"
+          placeholder="Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <input
+          type="password"
+          placeholder="Senha"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+        <a href="#forgot">Esqueceu sua senha?</a>
+        <button onClick={handleLogin}>Entrar</button>
+        <p>Ou continue com</p>
+        <button className="social-login facebook">Entrar com o Facebook</button>
+        <button className="social-login google">Entrar com o Google</button>
+      </div>
     </div>
   );
 }

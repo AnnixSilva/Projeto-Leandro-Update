@@ -17,7 +17,7 @@
     position: absolute;
     left: 550px;
     top: 500px;
-    z-index: -2;
+    z-index: 0;
 }
 
 .leandro1{
@@ -33,4 +33,8 @@
     top: 1220px;
     z-index: -1;
     
+}
+
+.lotto{
+    height: 1550px;
 }

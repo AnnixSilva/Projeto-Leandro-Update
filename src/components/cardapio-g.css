@@ -1,0 +1,38 @@
+.cardapio-geral{
+    position: relative;
+    left: 20%;
+    top: -20px;
+    z-index: -1;
+}
+
+.celular{
+    height: 2000px;
+}
+
+.cardapio-bovino{
+    position: relative;
+    right: 23%;
+    top: 25%;
+    z-index: 0;
+}
+
+.cardapio-suino{
+    position: relative;
+    left: 20%;
+    top: 22%;
+    z-index: 1;
+}
+
+.cardapio-aviario{
+    position: relative;
+    left: -21%;
+    top: 40%;
+    z-index: -0;
+}
+
+.cardapio-psciano{
+    position: relative;
+    left: -1%;
+    top: 38%;
+    z-index: -0;
+}

@@ -62,7 +62,7 @@ function Navbar() {
             </SearchBox>
             <Box display="flex" alignItems="center">
             <IconButton color="inherit">
-            <Link to='/login'><Person /></Link>
+            <Link to='/local-entrada'><Person /></Link>
             </IconButton>
             <IconButton color="inherit">
                 <ShoppingCart />
